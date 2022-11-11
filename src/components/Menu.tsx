@@ -1,8 +1,6 @@
 import  styled from 'styled-components';
 import MenuMobile from './MenuMainMobile';
 
-// Test Actualiznado Github
-
 const MainMenu = ({handleChangeTheme} : any)  => {
  
     return ( 
