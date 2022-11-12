@@ -73,10 +73,9 @@ const Formulario = styled.form`
 const Input = styled.input`
     width: 100%;
     padding: 10px;
-    height: 70px;
+    height: 50px;
     border: 2px solid rgba(0,0,0,.2);
     border-radius: 3px;
-    transition: .2s ease all;
     outline: none;
     &:focus {
         border: 2px solid ${props => props.theme.fontSecond};
@@ -89,7 +88,6 @@ const Boton2 = styled.button`
     border: none;
     cursor: pointer;
     border-radius: 3px;
-    transition: .3s ease all;
     outline: none;
     background: ${props => props.theme.secondary};
     color: ${props => props.theme.fontPrim};

@@ -54,7 +54,7 @@ export default CarouselMain1
 
 const Container = styled.div`
   .carousel {
-    margin: 20px 0;
+    margin: 50px 0;
     border-radius: 20px;
     .carousel-inner {
       border-radius: 20px;

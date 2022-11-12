@@ -11,7 +11,7 @@ const LeftCanvas = () => {
     const handleShow = () => setShow(true);
 
   return (
-    <OffCanvasContainer>
+    <div>
       <Boton1 className="btn1" onClick={handleShow}>
         <h2>Contact</h2>
       </Boton1>
@@ -23,18 +23,12 @@ const LeftCanvas = () => {
             <ContactMe/>
         </Offcanvas.Body>
       </Offcanvas>
-    </OffCanvasContainer>
+    </div>
   );
 }
 
 export default LeftCanvas;
 
-const OffCanvasContainer = styled.div`
-
-  .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl {
-    background-color: red;
-  }
-`
 
 const Boton1 = styled.button` 
   display: flex;
@@ -42,11 +36,10 @@ const Boton1 = styled.button`
   background: inherit;
   color: ${props => props.theme.fontPrim};
   border: none;
-  transition: 0.5s ease all;
   border-radius: 10px;
   background: ${props => props.theme.secondary};
   &:hover {
-      background: ${props => props.theme.primary};
+      background: ${props => props.theme.tertiary};
       color: ${props => props.theme.fontPrim};
       border-radius: 10px;
   }

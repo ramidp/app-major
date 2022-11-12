@@ -54,7 +54,7 @@ const Main3 = () => {
     return ( 
         <Main3Container className="container">
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 p-0">
               <div className="title-and-btn">
                 <h1>Story</h1>  
                 <StopBtn onClick={pause}>Stop Music</StopBtn>

@@ -36,7 +36,6 @@ const OffCanvas = styled.div`
     font-size: 1em;
     text-decoration: none;
     color: ${props => props.theme.fontPrim};
-    transition: 0.65s ease all;
     &:hover {
       background: ${props => props.theme.secondary};
     }

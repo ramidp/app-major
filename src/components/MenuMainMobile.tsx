@@ -18,7 +18,7 @@ const MenuMobile = (props : {handleChangeTheme: () =>void}) => {
               <img className="infilogo" src={logoinfi} alt="Logo" />
           </Logo>
           <BotonTheme>
-              <button onClick={props.handleChangeTheme}>Another color?</button>
+              <button onClick={props.handleChangeTheme}>Theme color?</button>
           </BotonTheme>
         </Left>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -6,8 +6,8 @@ const Main2 = () => {
         <div className="container">
           <div className="row">
             <div className="col">
-            <h1>Cards</h1>
-            <FormularioMain2/>
+              <h1>Cards</h1>
+              <FormularioMain2/>
             </div>
           </div>
         </div>

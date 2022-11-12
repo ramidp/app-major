@@ -47,7 +47,6 @@ const MenuBar = styled.div`
         font-size: 1.2em;
         margin: 0 10px;
         padding: 0.5em 0.8em;
-        transition: 0.8s ease all;
         border-radius: 10px;
         &:hover {
           border-radius: 10px;
