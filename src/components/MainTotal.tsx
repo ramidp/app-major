@@ -35,6 +35,7 @@ const AppContainer = styled.div`
     border-radius: 10px;
     padding: 20px;
     min-width: 710px;
+    min-height: 784px;
     h1 {
         color: ${props => props.theme.fontPrim};
     }

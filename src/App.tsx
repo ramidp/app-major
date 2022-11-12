@@ -82,7 +82,6 @@ const App = ()  => {
 export default App;
 
 const AppContainer = styled.div`
-
 `
 
 const Div = styled.div`

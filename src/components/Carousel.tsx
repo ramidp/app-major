@@ -54,7 +54,7 @@ export default CarouselMain1
 
 const Container = styled.div`
   .carousel {
-    margin: 50px 0;
+    margin: 35px 0;
     border-radius: 20px;
     .carousel-inner {
       border-radius: 20px;
@@ -66,6 +66,7 @@ const Container = styled.div`
   }
   }
   h2 {
+    margin-top: 10px;
     font-size: 20px;
     color: ${props => props.theme.fontPrim}
   }
