@@ -4,6 +4,7 @@ import Main1 from '../components/Main1'
 import Main2 from '../components/Main2'
 import Main3 from '../components/Main3'
 import styled from 'styled-components';
+import Main4 from './Main4';
 
 WebFont.load ({
   google: {
@@ -19,6 +20,7 @@ const MainTotal = () => {
               <Route path='/' element={<Main1/>}/>
               <Route path='/main2' element={<Main2/>}/>
               <Route path='/main3' element={<Main3/>}/>
+              <Route path='/main4' element={<Main4/>}/>
           </Routes>
     </AppContainer> 
    );
@@ -34,19 +36,19 @@ const AppContainer = styled.div`
     background-color: ${props => props.theme.primary};
     border-radius: 10px;
     padding: 20px;
-    min-width: 710px;
+    width: 710px;
     min-height: 784px;
     h1 {
         color: ${props => props.theme.fontPrim};
     }
   @media (max-width: 801px) {
-      min-width: 40em}
+      width: 40em}
   @media (max-width: 650px) {
-      min-width: 30em}
+      width: 30em}
   @media (max-width: 500px) {
-      min-width: 25em}
+      width: 25em}
   @media (max-width: 400px) {
-      min-width: 20em}
+      width: 20em}
 `
 
 

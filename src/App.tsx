@@ -33,9 +33,9 @@ const App = ()  => {
         break;
         case '#3f9e4f':
         {setTheme({
-              primary: '#9e3f3f', // El mas clarito
-              secondary: '#681b1b', // El mas oscuro
-              tertiary: '#7c3030', // Intermedio
+              primary: '#9e3f3f',
+              secondary: '#681b1b', 
+              tertiary: '#7c3030', 
               fontPrim: "white",
               fontSecond: "black",
               svgcolor: "#96050045",
@@ -73,7 +73,7 @@ const App = ()  => {
        </AppContainer>
       </BrowserRouter>
           <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio='none'>
-            <path fill="#0099ff" fill-opacity="1" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,250.7C840,277,960,299,1080,288C1200,277,1320,235,1380,213.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            <path fill="#0099ff" d="M0,64L60,80C120,96,240,128,360,160C480,192,600,224,720,250.7C840,277,960,299,1080,288C1200,277,1320,235,1380,213.3L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
           </Svg>    
   </ThemeProvider>
   )

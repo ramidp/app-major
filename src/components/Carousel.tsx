@@ -44,6 +44,17 @@ const CarouselMain1 = () => {
                 />
             </Carousel.Item>
         </Carousel>
+        <div>
+          <p className="sampletext">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quam molestias 
+            expedita eum repellendus est earum atque sequi debitis praesentium sapiente nisi 
+            rerum, asperiores cupiditate facere dolorum suscipit officiis ex rem voluptatem 
+            temporibus ad deleniti! Mollitia, sit vero. Error mollitia consectetur deleniti, 
+            eos aspernatur laborum iste quod perspiciatis repellendus pariatur, debitis cum 
+            eius nihil. Ad, velit optio quisquam iure molestiae delectus itaque, sed nam cupiditate 
+            eniam earum rerum! Dignissimos, asperiores!
+          </p>
+        </div>
         </div>
       </div>
     </Container>
@@ -69,5 +80,10 @@ const Container = styled.div`
     margin-top: 10px;
     font-size: 20px;
     color: ${props => props.theme.fontPrim}
+  }
+  .sampletext {
+    color: ${props => props.theme.fontPrim};
+    text-justify: initial;
+
   }
 `

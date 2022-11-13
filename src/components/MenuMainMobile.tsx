@@ -28,6 +28,7 @@ const MenuMobile = (props : {handleChangeTheme: () =>void}) => {
               <NavLink to="/" end><h2>Gallery</h2></NavLink>
               <NavLink to="/main2"><h2>Cards</h2></NavLink>
               <NavLink to="/main3"><h2>Story</h2></NavLink>
+              <NavLink to="/main4"><h2>Animations</h2></NavLink>
             </NavLinkContainer>
             <LeftCanvas/>
           </Nav>
