@@ -12,56 +12,34 @@ const Animations = () => {
                 <div className="four">
                  </div>
             </div> 
-
-            {/* <div className="one">
-                <div className="two">
-                 </div>
-            </div> */}
-{/* 
-            <div className="one">
-                <div className="six">
-                 </div>
-            </div>
-
-            <div className="five">
-                <div className="two">
-                 </div>
-            </div>
-
-            <div className="three">
-                <div className="four">
-                 </div>
-            </div>
-
-            <div className="one">
-                <div className="four">
-                 </div>
-            </div>
-
             <div className="one">
                 <div className="six">
                  </div>
             </div>
 
             <div className="three">
-                <div className="two">
+                <div className="four">
+                 </div>
+            </div> 
+            <div className="one">
+                <div className="six">
                  </div>
             </div>
 
             <div className="three">
                 <div className="four">
                  </div>
-            </div>
-
-            <div className="five">
-                <div className="four">
-                 </div>
-            </div>
-
+            </div> 
             <div className="one">
                 <div className="six">
                  </div>
-            </div> */}
+            </div>
+
+            <div className="three">
+                <div className="four">
+                 </div>
+            </div> 
+
 
         </AnimationsContainer>
      );
