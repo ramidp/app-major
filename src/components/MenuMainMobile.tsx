@@ -59,6 +59,7 @@ const BotonTheme = styled.div`
         background-color: ${props => props.theme.secondary};
         border-radius: 5px;
         padding: 10px;
+        margin-left: 5px;
         &:hover {
           background-color: ${props => props.theme.tertiary};
         }
@@ -69,6 +70,7 @@ const BotonTheme = styled.div`
 
 const NavLinkContainer = styled.div`
     display: flex;
+
       .active {
           h2 {
         color: ${props => props.theme.secondary};

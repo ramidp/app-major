@@ -44,10 +44,18 @@ const MenuBar = styled.div`
       text-decoration: none;
       color: ${props => props.theme.fontPrim};
       h2 {
-        font-size: 1.2em;
+        font-size: 20px!important;
         margin: 0 10px;
         padding: 0.5em 0.8em;
         border-radius: 10px;
+
+        @media (max-width: 840px){
+          font-size: 18px!important;
+        }
+        @media (max-width: 600px) {
+            font-size: 13px!important;
+          }
+
         &:hover {
           border-radius: 10px;
           color: ${props => props.theme.secondary}
@@ -57,9 +65,15 @@ const MenuBar = styled.div`
   
   .btn1 {
         h2 {
-          font-size: 1.2em;
+          font-size: 20px;
           padding: 0.5em 0.8em;
           margin: 0 10px;
+          @media (max-width: 840px) {
+            font-size: 18px!important;
+          }
+          @media (max-width: 600px) {
+            font-size: 13px!important;
+          }
         }
     }
   }

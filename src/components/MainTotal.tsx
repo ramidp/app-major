@@ -41,6 +41,8 @@ const AppContainer = styled.div`
     h1 {
         color: ${props => props.theme.fontPrim};
     }
+  @media (max-width: 1100px) {
+      width: 38em}
   @media (max-width: 801px) {
       width: 40em}
   @media (max-width: 650px) {
